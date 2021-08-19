@@ -57,7 +57,7 @@
         <span class="fixed-navbar-icon uil uil-plus"></span>
       </button>
       <button class="fixed-navbar-button">
-        <span class="fixed-navbar-icon uil uil-setting"></span>
+        <span class="fixed-navbar-icon uil uil-home"></span>
       </button>
     </nav>
     <footer class="fixed-navbar-footer">
