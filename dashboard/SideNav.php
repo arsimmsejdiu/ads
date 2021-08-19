@@ -19,7 +19,7 @@ include('../components/head.php')
     </nav>
     <footer class="fixed-navbar-footer">
         <button class="fixed-navbar-button">
-            <span class="fixed-navbar-icon uil uil-sign-out-alt"></span>
+            <a href="../signin.php"><span class="fixed-navbar-icon uil uil-sign-out-alt"></span></a>
         </button>
     </footer>
 </aside>

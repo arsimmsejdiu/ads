@@ -5,7 +5,7 @@ include('./components/head.php')
 <header class="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
 
     <div class="relative flex items-center h-10 cursor-pointer my-auto">
-        <img src="assets/images/logo.png" alt="logo" />
+        <a href="index.php"><img src="assets/images/logo.png" alt="logo" /></a>
     </div>
 
     <div class="flex items-center md:border-2 rounded-full py-2  md:shadow-sm">
