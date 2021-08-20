@@ -18,7 +18,7 @@ include('./components/head.php')
     </div>
 
     <div class="flex space-x-4 items-center justify-end text-gray-500">
-        <p className="hidden md:inline cursor-pointer">Favorites <i class="ri-heart-line"></i></i></p>
+        <p className="hidden md:inline cursor-pointer">Favorites <i class="ri-heart-line"></i></p>
         <p className="hidden md:inline cursor-pointer">Hello, Arsim</p>
         <div class="flex items-center border-2 rounded-full space-x-2 p-2">
             <a href="dashboard/MySpace.php"><i class="ri-menu-2-line h-6 cursor-pointer"></i></a>

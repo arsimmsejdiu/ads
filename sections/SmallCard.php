@@ -2,7 +2,7 @@
 include('./components/head.php')
 ?>
 
-<main class="max-w-7xl mx-auto px-8 sm:px-16">
+<main id="category" class="max-w-7xl mx-auto px-8 sm:px-16">
     <section class="pt-6">
         <h2 class="text-4xl font-semibold pb-5">Categories</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

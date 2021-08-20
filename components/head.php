@@ -7,5 +7,5 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
-    <title>Ads Network</title>
+    <title>Your Network - Explore All Announcements</title>
 </head>
