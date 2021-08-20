@@ -15,7 +15,40 @@ include('./components/headDash.php')
             <div>
                 <div class="flex items-center justify-between">
                     <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Technical Specifications </h2>
-                    <i class="ri-heart-line text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"></i>
+                    <article class="block pulse2">
+                        <div class="block-inner">
+                            <div class="block-component">
+                                <div class="pulse2-badge"><i class="ri-heart-line"></i></div>
+                            </div>
+                        </div>
+                        <style>
+                            .block.pulse2 {
+                                background: transparent;
+                            }
+
+                            @keyframes pulse2 {
+                                0% {
+                                    box-shadow: 0 0 0 0 rgba(241, 73, 100, 0.5);
+                                }
+
+                                100% {
+                                    box-shadow: 0 0 0 28px rgba(241, 73, 100, 0);
+                                }
+                            }
+
+                            .pulse2-badge {
+                                position: relative;
+                                display: grid;
+                                place-items: center;
+                                width: 2rem;
+                                height: 2rem;
+                                border-radius: 50%;
+                                background: #f14964;
+                                color: rgba(255, 255, 255, 0.96);
+                                animation: pulse2 2s infinite;
+                            }
+                        </style>
+                    </article>
                 </div>
 
                 <p class="mt-4 text-gray-500">The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated steel divider separates active cards from new ones, or can be used to archive important task lists.</p>
