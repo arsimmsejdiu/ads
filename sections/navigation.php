@@ -18,10 +18,15 @@ include('./components/head.php')
     </div>
 
     <div class="flex space-x-4 items-center justify-end text-gray-500">
-        <p className="hidden md:inline cursor-pointer">Favorites <i class="ri-heart-line"></i></p>
-        <p className="hidden md:inline cursor-pointer">Hello, Arsim</p>
-        <div class="flex items-center border-2 rounded-full space-x-2 p-2">
-            <a href="dashboard/MySpace.php"><i class="ri-menu-2-line h-6 cursor-pointer"></i></a>
+        <p className="hidden md:inline cursor-pointer font-bold">Favorites <i class="ri-heart-line"></i></p>
+        <div class="py-2 bg-gray-50 text-right sm:px-6">
+            <a href="dashboard/MySpace.php"><button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    My Dashboard
+                </button>
+            </a>
+        </div>
+        <div class="flex items-center border-2 rounded-full space-x-2 p-2 text-white bg-green-600">
+            <i class="ri-menu-2-line h-6 cursor-pointer"></i>
             <a href="signin.php"><i class="ri-user-line h-6 cursor-pointer"></i></a>
         </div>
     </div>
