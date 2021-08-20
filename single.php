@@ -46,6 +46,14 @@ include('./components/headDash.php')
                                 background: #f14964;
                                 color: rgba(255, 255, 255, 0.96);
                                 animation: pulse2 2s infinite;
+                                transition: all 0.5s ease-out;
+                            }
+
+                            .pulse2-badge:hover {
+                                border: 1px solid #f14964;
+                                color: #f14964;
+                                background: white;
+
                             }
                         </style>
                     </article>
