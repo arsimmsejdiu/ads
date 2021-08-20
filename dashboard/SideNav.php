@@ -11,7 +11,7 @@ include('../components/head.php')
             <a href="MySpace.php"><span class="fixed-navbar-icon uil uil-home"></span></a>
         </button>
         <button class="fixed-navbar-button">
-            <span class="fixed-navbar-icon uil uil-pen"></span>
+            <span class="fixed-navbar-icon uil uil-user"></span>
         </button>
         <button class="fixed-navbar-button">
             <a href="Create.php"><span class="fixed-navbar-icon uil uil-plus"></span></a>
