@@ -19,6 +19,10 @@ include('../components/head.php')
                         </a>
                     </h3>
                     <p class="text-base font-semibold text-gray-900">Work from home accessories</p>
+                    <div class="flex justify-between md:space-x-20 space-y-10 md:space-y-0 mt-5">
+                        <button class="bg-red-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-red-600 rounded-full hover:shadow-2xl hover:bg-red-400">Delete</button>
+                        <button class="bg-green-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-green-600 rounded-full hover:shadow-2xl hover:bg-green-400">Edit</button>
+                    </div>
                 </div>
 
                 <div class="group relative py-10">
@@ -32,6 +36,10 @@ include('../components/head.php')
                         </a>
                     </h3>
                     <p class="text-base font-semibold text-gray-900">Journals and note-taking</p>
+                    <div class="flex justify-between md:space-x-20 space-y-10 md:space-y-0 mt-5">
+                        <button class="bg-red-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-red-600 rounded-full hover:shadow-2xl hover:bg-red-400">Delete</button>
+                        <button class="bg-green-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-green-600 rounded-full hover:shadow-2xl hover:bg-green-400">Edit</button>
+                    </div>
                 </div>
 
                 <div class="group relative py-10">
@@ -45,6 +53,10 @@ include('../components/head.php')
                         </a>
                     </h3>
                     <p class="text-base font-semibold text-gray-900">Daily commute essentials</p>
+                    <div class="flex justify-between md:space-x-20 space-y-10 md:space-y-0 mt-5">
+                        <button class="bg-red-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-red-600 rounded-full hover:shadow-2xl hover:bg-red-400">Delete</button>
+                        <button class="bg-green-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-green-600 rounded-full hover:shadow-2xl hover:bg-green-400">Edit</button>
+                    </div>
                 </div>
 
                 <div class="group relative py-10">
@@ -58,6 +70,10 @@ include('../components/head.php')
                         </a>
                     </h3>
                     <p class="text-base font-semibold text-gray-900">Work from home accessories</p>
+                    <div class="flex justify-between md:space-x-20 space-y-10 md:space-y-0 mt-5">
+                        <button class="bg-red-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-red-600 rounded-full hover:shadow-2xl hover:bg-red-400">Delete</button>
+                        <button class="bg-green-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-green-600 rounded-full hover:shadow-2xl hover:bg-green-400">Edit</button>
+                    </div>
                 </div>
 
                 <div class="group relative py-10">
@@ -71,6 +87,10 @@ include('../components/head.php')
                         </a>
                     </h3>
                     <p class="text-base font-semibold text-gray-900">Work from home accessories</p>
+                    <div class="flex justify-between md:space-x-20 space-y-10 md:space-y-0 mt-5">
+                        <button class="bg-red-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-red-600 rounded-full hover:shadow-2xl hover:bg-red-400">Delete</button>
+                        <button class="bg-green-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-green-600 rounded-full hover:shadow-2xl hover:bg-green-400">Edit</button>
+                    </div>
                 </div>
 
                 <div class="group relative py-10">
@@ -84,6 +104,10 @@ include('../components/head.php')
                         </a>
                     </h3>
                     <p class="text-base font-semibold text-gray-900">Work from home accessories</p>
+                    <div class="flex justify-between md:space-x-20 space-y-10 md:space-y-0 mt-5">
+                        <button class="bg-red-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-red-600 rounded-full hover:shadow-2xl hover:bg-red-400">Delete</button>
+                        <button class="bg-green-300 px-5 py-3 text-sm shadow-sm font-medium tracking-wider  text-green-600 rounded-full hover:shadow-2xl hover:bg-green-400">Edit</button>
+                    </div>
                 </div>
             </div>
         </div>
