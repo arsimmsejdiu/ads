@@ -1,33 +1,116 @@
 <main class="max-w-7xl mx-auto px-8 sm:px-16">
     <section class="pt-6">
         <h2 class="text-4xl font-semibold py-8">Announcements</h2>
-        <div class="space-x-3 p-3 -ml-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div class="space-x-3 p-3 -ml-3 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3">
             <a href="./single.php">
-                <div class="cursor-pointer hover:scale-105 transform transition duration-300 ease-out hover:text-gray-500">
-                    <div options={{ max : 25 }} class="relative h-50 w-50">
-                        <img src="assets/images/boots.png" class="rounded-xl" />
+                <!--First card-->
+                <div class="md:p-8 p-2 bg-white">
+                    <!--Banner image-->
+                    <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+          " />
+
+                    <!--Tag-->
+                    <p class="text-indigo-500 font-semibold text-base mt-2">Science</p>
+                    <!--Title-->
+                    <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
+                        the life of albert einstein
+                    </h1>
+                    <!--Description-->
+                    <div class="max-w-full">
+                        <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+                            vel soluta dolore id nesciunt eum nam ipsam, eveniet cupiditate sint
+                            veritatis harum odit. Iste dignissimos, ad provident nulla
+                            voluptatum ut.
+                        </p>
                     </div>
-                    <h3 class="text-2xl mt-1">What's new in Bootstrap 5</h3>
+                    <div class="flex items-center space-x-2 mt-5">
+                        <!--Author's profile photo-->
+                        <img class="w-10 h-10 object-cover object-center rounded-full" src="assets/images/hacker.png" alt="random user" />
+                        <div>
+                            <!--Author name-->
+                            <p class="text-gray-900 font-semibold">Arsim Sejdiu</p>
+                            <p class="text-gray-500 font-semibold text-sm">
+                                &middot; Feb 24, 2021 &middot;
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <!--End of first card-->
             </a>
-            <div class="cursor-pointer hover:scale-105 transform transition duration-300 ease-out">
-                <div options={{ max : 25 }} class="relative h-50 w-50">
-                    <img src="assets/images/vue.png" class="rounded-xl" />
+            <a href="./single.php">
+                <!--First card-->
+                <div class="md:p-8 p-2 bg-white">
+                    <!--Banner image-->
+                    <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+          " />
+
+                    <!--Tag-->
+                    <p class="text-indigo-500 font-semibold text-base mt-2">Science</p>
+                    <!--Title-->
+                    <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
+                        the life of albert einstein
+                    </h1>
+                    <!--Description-->
+                    <div class="max-w-full">
+                        <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+                            vel soluta dolore id nesciunt eum nam ipsam, eveniet cupiditate sint
+                            veritatis harum odit. Iste dignissimos, ad provident nulla
+                            voluptatum ut.
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-2 mt-5">
+                        <!--Author's profile photo-->
+                        <img class="w-10 h-10 object-cover object-center rounded-full" src="assets/images/hacker.png" alt="random user" />
+                        <div>
+                            <!--Author name-->
+                            <p class="text-gray-900 font-semibold">Arsim Sejdiu</p>
+                            <p class="text-gray-500 font-semibold text-sm">
+                                &middot; Feb 24, 2021 &middot;
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="text-2xl mt-1">An Intuitive UI framework components for vue</h3>
-            </div>
-            <div class="cursor-pointer hover:scale-105 transform transition duration-300 ease-out">
-                <div options={{ max : 25 }} class="relative h-50 w-50">
-                    <img src="assets/images/react.png" class="rounded-xl" />
+                <!--End of first card-->
+            </a>
+            <a href="./single.php">
+                <!--First card-->
+                <div class="md:p-8 p-2 bg-white">
+                    <!--Banner image-->
+                    <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+          " />
+
+                    <!--Tag-->
+                    <p class="text-indigo-500 font-semibold text-base mt-2">Science</p>
+                    <!--Title-->
+                    <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
+                        the life of albert einstein
+                    </h1>
+                    <!--Description-->
+                    <div class="max-w-full">
+                        <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+                            vel soluta dolore id nesciunt eum nam ipsam, eveniet cupiditate sint
+                            veritatis harum odit. Iste dignissimos, ad provident nulla
+                            voluptatum ut.
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-2 mt-5">
+                        <!--Author's profile photo-->
+                        <img class="w-10 h-10 object-cover object-center rounded-full" src="assets/images/hacker.png" alt="random user" />
+                        <div>
+                            <!--Author name-->
+                            <p class="text-gray-900 font-semibold">Arsim Sejdiu</p>
+                            <p class="text-gray-500 font-semibold text-sm">
+                                &middot; Feb 24, 2021 &middot;
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="text-2xl mt-1">The Greatest React Developer I Ever Met</h3>
-            </div>
-            <div class="cursor-pointer hover:scale-105 transform transition duration-300 ease-out">
-                <div options={{ max : 25 }} class="relative h-50 w-50">
-                    <img src="assets/images/angular.jpg" class="rounded-xl" />
-                </div>
-                <h3 class="text-2xl mt-1">Share Component Data With Other Components in Angular</h3>
-            </div>
+                <!--End of first card-->
+            </a>
+
         </div>
     </section>
 </main>

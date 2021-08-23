@@ -18,7 +18,7 @@ include('./components/head.php')
     </div>
 
     <div class="flex space-x-4 items-center justify-end text-gray-500">
-        <p className="hidden md:inline cursor-pointer font-bold">Favorites <i class="ri-heart-line"></i></p>
+        <p className="hidden sm:hidden md:inline cursor-pointer font-bold">Favorites <i class="ri-heart-line"></i></p>
         <div class="py-2 bg-gray-50 text-right sm:px-6">
             <a href="dashboard/MySpace.php"><button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     My Dashboard
