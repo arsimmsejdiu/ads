@@ -58,10 +58,11 @@ include('./components/headDash.php')
                         </style>
                     </article>
                 </div>
+                <div class="flex items-center justify-between mt-4">
+                    <div class="flex items-center"><img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="object-cover w-8 h-8 rounded-full"><a href="#" class="mx-3 text-sm text-gray-700 hover:underline">Alex John</a></div><span class="text-sm font-light text-gray-600">Jun 1, 2020</span>
+                </div>
 
                 <p class="mt-4 text-gray-500">The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated steel divider separates active cards from new ones, or can be used to archive important task lists.</p>
-                    
-                
 
                 <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                     <div class="border-t border-gray-200 pt-4">
@@ -93,6 +94,7 @@ include('./components/headDash.php')
                         <dt class="font-medium text-gray-900">Considerations</dt>
                         <dd class="mt-2 text-sm text-gray-500">Made from natural materials. Grain and color vary with each item.</dd>
                     </div>
+
                     <button type="button" class="bg-blue-500 text-white px-6 py-2 rounded font-medium mx-3 hover:bg-blue-600 transition duration-200 each-in-out">Write to the Owner</button>
                 </dl>
             </div>
