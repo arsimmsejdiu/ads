@@ -9,7 +9,7 @@
                     <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
 
                     <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">Science</p>
+                    <p class="text-indigo-500 font-semibold text-base mt-2">#Science</p>
                     <!--Title-->
                     <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
                         the life of albert einstein
@@ -44,7 +44,7 @@
                     <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
 
                     <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">Science</p>
+                    <p class="text-indigo-500 font-semibold text-base mt-2">#React/ReactNative</p>
                     <!--Title-->
                     <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
                         the life of albert einstein
@@ -79,7 +79,7 @@
                     <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
 
                     <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">Science</p>
+                    <p class="text-indigo-500 font-semibold text-base mt-2">#Finance #Banking</p>
                     <!--Title-->
                     <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
                         the life of albert einstein
@@ -115,7 +115,7 @@
                     <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
 
                     <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">Science</p>
+                    <p class="text-indigo-500 font-semibold text-base mt-2">#Literature #Books</p>
                     <!--Title-->
                     <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
                         the life of albert einstein
@@ -150,7 +150,7 @@
                     <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
 
                     <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">Science</p>
+                    <p class="text-indigo-500 font-semibold text-base mt-2">#Nature #ClimateChange</p>
                     <!--Title-->
                     <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
                         the life of albert einstein
@@ -185,7 +185,7 @@
                     <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
 
                     <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">Science</p>
+                    <p class="text-indigo-500 font-semibold text-base mt-2">#Science #Education</p>
                     <!--Title-->
                     <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
                         the life of albert einstein

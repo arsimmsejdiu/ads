@@ -14,6 +14,9 @@ include('../components/head.php')
             <span class="fixed-navbar-icon uil uil-user"></span>
         </button>
         <button class="fixed-navbar-button">
+            <span class="fixed-navbar-icon uil uil-envelope"></span>
+        </button>
+        <button class="fixed-navbar-button">
             <a href="Create.php"><span class="fixed-navbar-icon uil uil-plus"></span></a>
         </button>
     </nav>
