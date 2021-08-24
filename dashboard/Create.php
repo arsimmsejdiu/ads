@@ -48,7 +48,7 @@ include('../components/headDash.php')
             </div>
 
             <div class="grid grid-cols-1 mt-5 mx-7">
-            <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Place</label>
+            <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Price</label>
                 <div class="flex flex-row">
                     <span class="flex items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold text-gray-600">$</span>
                     <input type="number" placeholder="Give your price ... " name="price" class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent">

@@ -16,7 +16,7 @@ include('../components/headDash.php')
     ?>
 
 
-    <div class="flex bg-gray-100 items-center justify-center mt-32 mb-32">
+<div class="flex bg-gray-100 items-center justify-center mt-32 mb-32">
         <div class="grid bg-gray-200 rounded-lg shadow-xl w-11/12 md:w-9/12 lg:w-1/2">
             <div class="flex justify-center py-4">
                 <div class="flex bg-purple-200 rounded-full md:p-4 p-2 border-2 border-purple-300">
@@ -28,34 +28,36 @@ include('../components/headDash.php')
 
             <div class="flex justify-center">
                 <div class="flex">
-                    <h1 class="text-gray-600 font-bold md:text-2xl text-xl">Update Your Announcement</h1>
+                    <h1 class="text-gray-600 font-bold md:text-2xl text-xl">Crate Your Announcement</h1>
                 </div>
+            </div>
+
+            <div class="grid grid-cols-1 mt-5 mx-7 hover:border-purple-300">
+                <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Title</label>
+                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-500 focus:border-transparent" type="text" placeholder="Write the title here ... " />
             </div>
 
             <div class="grid grid-cols-1 mt-5 mx-7">
-                <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Input 1</label>
-                <input class=" text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" placeholder="Input 1" />
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mt-5 mx-7">
-                <div class="grid grid-cols-1">
-                    <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Input 2</label>
-                    <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" placeholder="Input 2" />
-                </div>
-                <div class="grid grid-cols-1">
-                    <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Input 3</label>
-                    <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" placeholder="Input 3" />
-                </div>
+                <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Description</label>
+                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" placeholder="Write the description here ... " />
             </div>
 
             <div class="grid grid-cols-1 mt-5 mx-7">
-                <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Another Input</label>
-                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" placeholder="Another Input" />
+                <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Place</label>
+                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" placeholder="Place here ... " />
+            </div>
+
+            <div class="grid grid-cols-1 mt-5 mx-7">
+            <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Price</label>
+                <div class="flex flex-row">
+                    <span class="flex items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold text-gray-600">$</span>
+                    <input type="number" placeholder="Give your price ... " name="price" class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent">
+                </div>
             </div>
 
             <div class="grid grid-cols-1 mt-5 mx-7">
                 <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Select Date</label>
-                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 text-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="date" id="start" name="date" min='<?php echo date("Y-m-d"); ?>' value='<?php echo date("Y-m-d"); ?>'  placeholder="Pick a Date ... "/>
+                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 text-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="date" id="start" name="date" min='<?php echo date("Y-m-d"); ?>' value='<?php echo date("Y-m-d"); ?>' placeholder="Pick a Date ... " />
             </div>
 
             <div class="grid grid-cols-1 mt-5 mx-7">
