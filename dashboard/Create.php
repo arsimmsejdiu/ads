@@ -1,10 +1,25 @@
 <?php
-include('../components/head.php')
+include('../components/head.php');
+include('../database/db_connection.php');
 ?>
 
 <?php
 include('../components/headDash.php')
 ?>
+
+<!-- <?php 
+    //if(isset($_POST['submit'])) {
+        //$title = $_POST['title'];
+        //$image = $_POST['image'];
+       // $description = $_POST['description'];
+       // $category = $_POST['category'];
+       // $price = $_POST['price'];
+       // $date = $_POST['date'];
+       // $city = $_POST['city'];
+
+       // $query = mysqli_query($db_connection, "insert into historique(etage, price, position) value('$title', 'image' )");
+    //}
+?> -->
 
 <body>
     <?php
