@@ -1,26 +1,25 @@
 <?php
 session_start();
 include('../components/head.php');
+include('../components/headDash.php');
 include('../database/db_connection.php');
+
+if (isset($_POST['submit'])) {
+	//getting the post values
+	$etage = $_POST['etage'];
+	$price = $_POST['price'];
+	$position = $_POST['position'];
+
+	// Query for data insertion
+	$query = mysqli_query($db_connection, "insert into historique(etage, price, position) value('$etage','$price', '$position' )");
+	if ($query) {
+		echo "<script type='text/javascript'> document.location ='home.php'; </script>";
+	} else {
+		echo "<script>alert('Something Went Wrong. Please try again');</script>";
+	}
+}
 ?>
-
-<?php
-include('../components/headDash.php')
 ?>
-
-<!-- <?php 
-    //if(isset($_POST['submit'])) {
-        //$title = $_POST['title'];
-        //$image = $_POST['image'];
-       // $description = $_POST['description'];
-       // $category = $_POST['category'];
-       // $price = $_POST['price'];
-       // $date = $_POST['date'];
-       // $city = $_POST['city'];
-
-       // $query = mysqli_query($db_connection, "insert into historique(etage, price, position) value('$title', 'image' )");
-    //}
-?> -->
 
 <body>
     <?php
@@ -50,17 +49,17 @@ include('../components/headDash.php')
 
             <div class="grid grid-cols-1 mt-5 mx-7 hover:border-purple-300">
                 <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Title</label>
-                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-500 focus:border-transparent" type="text" placeholder="Write the title here ... " />
+                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-500 focus:border-transparent" type="text" name="title" placeholder="Write the title here ... " />
             </div>
 
             <div class="grid grid-cols-1 mt-5 mx-7">
                 <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Description</label>
-                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" placeholder="Write the description here ... " />
+                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" name="description" placeholder="Write the description here ... " />
             </div>
 
             <div class="grid grid-cols-1 mt-5 mx-7">
                 <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">Place</label>
-                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" placeholder="Place here ... " />
+                <input class="text-gray-500 py-2 px-3 rounded-lg border-2 border-purple-300 mt-1 focus:outline-none focus:ring-2 focus:ring-purple-600 hover:border-purple-300 focus:border-transparent" type="text" name="place" placeholder="Place here ... " />
             </div>
 
             <div class="grid grid-cols-1 mt-5 mx-7">
@@ -93,7 +92,7 @@ include('../components/headDash.php')
 
             <div class='flex items-center justify-center  md:gap-8 gap-4 pt-5 pb-5'>
                 <a href="MySpace.php"><button class='w-auto bg-gray-500 hover:bg-gray-700 rounded-lg shadow-xl font-medium text-white px-4 py-2'>Cancel</button></a>
-                <button class='w-auto bg-purple-500 hover:bg-purple-700 rounded-lg shadow-xl font-medium text-white px-4 py-2'>Create</button>
+                <button type="submit" name="submit" class='w-auto bg-purple-500 hover:bg-purple-700 rounded-lg shadow-xl font-medium text-white px-4 py-2'>Create</button>
             </div>
 
         </div>

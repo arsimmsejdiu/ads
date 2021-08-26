@@ -26,7 +26,7 @@ include('../components/head.php')
             <article class="block pulse2">
                 <div class="block-inner">
                     <div class="block-component">
-                        <div class="pulse2-badge "><a href="../signin.php"><span class="fixed-navbar-icon uil uil-sign-out-alt text-white flex items-center justify-center"></span></a></div>
+                        <div class="pulse2-badge "><a href="../logout.php"><span class="fixed-navbar-icon uil uil-sign-out-alt text-white flex items-center justify-center"></span></a></div>
                     </div>
                 </div>
                 <style>

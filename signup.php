@@ -1,5 +1,13 @@
 <?php
-include('./components/head.php')
+session_start();
+include('./components/head.php');
+require './db_connection.php';
+require './register.php';
+// If user is logged in 
+if (isset($_SESSION['user_email'])) {
+    header('Location: index.php');
+    exit;
+}
 ?>
 
 <div class="relative min-h-screen flex ">
@@ -30,27 +38,22 @@ include('./components/head.php')
                     <span class="text-gray-300 font-normal">or continue with ... </span>
                     <span class="h-px w-16 bg-gray-200"></span>
                 </div>
-                <form class="mt-8 space-y-6" action="#" method="POST">
+                <form class="mt-8 space-y-6" action="" method="POST">
                     <div class="mt-8 content-center">
                         <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">
                             Your Name
                         </label>
-                        <input class="w-full content-center text-base px-4 py-2 border-b rounded-2xl border-gray-300 focus:outline-none focus:border-indigo-500" type="text" placeholder="Enter your name ...  ">
+                        <input class="w-full content-center text-base px-4 py-2 border-b rounded-2xl border-gray-300 focus:outline-none focus:border-indigo-500" id="user_name" type="text" name="user_name" placeholder="Enter your name ...  ">
                     </div>
-                    <input type="hidden" name="remember" value="true">
                     <div class="relative">
-                        <div class="absolute right-3 mt-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                        </div>
                         <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">Email</label>
-                        <input class=" w-full text-base px-4 py-2 border-b border-gray-300 focus:outline-none rounded-2xl focus:border-indigo-500" type="" placeholder="mail@gmail.com">
+                        <input class=" w-full text-base px-4 py-2 border-b border-gray-300 focus:outline-none rounded-2xl focus:border-indigo-500" type="email" name="user_email" placeholder="mail@gmail.com">
                     </div>
                     <div class="mt-8 content-center">
                         <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">
                             Password
                         </label>
-                        <input class="w-full content-center text-base px-4 py-2 border-b rounded-2xl border-gray-300 focus:outline-none focus:border-indigo-500" type="" placeholder="Enter your password **** ">
+                        <input class="w-full content-center text-base px-4 py-2 border-b rounded-2xl border-gray-300 focus:outline-none focus:border-indigo-500" type="password" name="user_password" placeholder="Enter your password **** ">
                     </div>
                     <div class="flex items-center justify-between">
                         <div class="flex items-center">
@@ -62,9 +65,17 @@ include('./components/head.php')
                     </div>
                     <div>
                         <button type="submit" class="w-full flex justify-center bg-gradient-to-r from-indigo-500 to-blue-600  hover:bg-gradient-to-l hover:from-blue-500 hover:to-indigo-600 text-gray-100 p-4  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500">
-                            <a href="index.php">Sign up</a>
+                            Sign up
                         </button>
                     </div>
+                    <?php
+                    if (isset($success_message)) {
+                        echo '<div class="success_message">' . $success_message . '</div>';
+                    }
+                    if (isset($error_message)) {
+                        echo '<div class="error_message">' . $error_message . '</div>';
+                    }
+                    ?>
                     <p class="flex flex-col items-center justify-center mt-10 text-center text-md text-gray-500">
                         <span>Already a member ?</span>
                         <a href="signin.php" class="text-indigo-400 hover:text-blue-500 no-underline hover:underline cursor-pointer transition ease-in duration-300">
