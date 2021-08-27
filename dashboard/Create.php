@@ -6,14 +6,18 @@ include('../database/db_connection.php');
 
 if (isset($_POST['submit'])) {
 	//getting the post values
-	$etage = $_POST['etage'];
+	$title = $_POST['title'];
+    $description = $_POST['description'];
+    $image = $_POST['image'];
+    $category = $_POST['category'];
 	$price = $_POST['price'];
-	$position = $_POST['position'];
+    $created_at = $_POST['created_at'];
+	$city = $_POST['city'];
 
 	// Query for data insertion
-	$query = mysqli_query($db_connection, "insert into historique(etage, price, position) value('$etage','$price', '$position' )");
+	$query = mysqli_query($db_connection, "insert into historique(title, description, image, category, price, created_at, city) value('$title', '$description', '$image', '$category', '$price', '$created_at', '$city')");
 	if ($query) {
-		echo "<script type='text/javascript'> document.location ='home.php'; </script>";
+		echo "<script type='text/javascript'> document.location ='MySpace.php'; </script>";
 	} else {
 		echo "<script>alert('Something Went Wrong. Please try again');</script>";
 	}

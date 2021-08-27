@@ -1,7 +1,7 @@
 <main class="max-w-7xl mx-auto px-8 sm:px-16">
     <section class="pt-6">
         <h2 class="text-4xl font-semibold py-8">Announcements</h2>
-        <div class="space-x-3 p-3 -ml-3 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3">
+        <div class="space-x-3 p-3 -ml-3 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
             <a href="./single.php">
                 <!--First card-->
                 <div class="md:p-8 p-2 bg-white">
