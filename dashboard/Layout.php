@@ -1,7 +1,7 @@
 <?php
 session_start();
 include('../components/head.php');
-include('../database/db_connection.php')
+include('../db_connection.php')
 ?>
 
 <div class="bg-gray-100">

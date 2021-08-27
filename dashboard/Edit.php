@@ -6,6 +6,12 @@ include('../components/head.php')
 include('../components/headDash.php')
 ?>
 
+<?php
+    session_start();
+    if(!isset($_SESSION['user_email']))
+    header('Location: ../index.php');
+?>
+
 <body>
     <?php
     include('./TopNav.php')

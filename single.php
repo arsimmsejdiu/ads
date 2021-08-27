@@ -4,6 +4,40 @@ include('./components/head.php')
 <?php
 include('./components/headDash.php')
 ?>
+<style>
+    .block.pulse2 {
+        background: transparent;
+    }
+
+    @keyframes pulse2 {
+        0% {
+            box-shadow: 0 0 0 0 rgba(241, 73, 100, 0.5);
+        }
+
+        100% {
+            box-shadow: 0 0 0 28px rgba(241, 73, 100, 0);
+        }
+    }
+
+    .pulse2-badge {
+        position: relative;
+        display: grid;
+        place-items: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background: #f14964;
+        color: rgba(255, 255, 255, 0.96);
+        animation: pulse2 2s infinite;
+        transition: all 0.5s ease-out;
+    }
+
+    .pulse2-badge:hover {
+        border: 1px solid #f14964;
+        color: #f14964;
+        background: white;
+    }
+</style>
 
 <body>
     <?php
@@ -21,41 +55,7 @@ include('./components/headDash.php')
                                 <div class="pulse2-badge"><i class="ri-heart-line"></i></div>
                             </div>
                         </div>
-                        <style>
-                            .block.pulse2 {
-                                background: transparent;
-                            }
 
-                            @keyframes pulse2 {
-                                0% {
-                                    box-shadow: 0 0 0 0 rgba(241, 73, 100, 0.5);
-                                }
-
-                                100% {
-                                    box-shadow: 0 0 0 28px rgba(241, 73, 100, 0);
-                                }
-                            }
-
-                            .pulse2-badge {
-                                position: relative;
-                                display: grid;
-                                place-items: center;
-                                width: 2rem;
-                                height: 2rem;
-                                border-radius: 50%;
-                                background: #f14964;
-                                color: rgba(255, 255, 255, 0.96);
-                                animation: pulse2 2s infinite;
-                                transition: all 0.5s ease-out;
-                            }
-
-                            .pulse2-badge:hover {
-                                border: 1px solid #f14964;
-                                color: #f14964;
-                                background: white;
-
-                            }
-                        </style>
                     </article>
                 </div>
                 <div class="flex items-center justify-between mt-4">
