@@ -1,218 +1,160 @@
 <main class="max-w-7xl mx-auto px-8 sm:px-16">
     <section class="pt-6">
         <h2 class="text-4xl font-semibold py-8">Announcements</h2>
-        <div class="space-x-3 p-3 -ml-3 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-            <a href="./single.php">
-                <!--First card-->
-                <div class="md:p-8 p-2 bg-white">
-                    <!--Banner image-->
-                    <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
-
-                    <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">#Science</p>
-                    <!--Title-->
-                    <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
-                        the life of albert einstein
-                    </h1>
-                    <!--Description-->
-                    <div class="max-w-full">
-                        <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-                            vel soluta dolore id nesciunt eum nam ipsam, eveniet cupiditate sint
-                            veritatis harum odit. Iste dignissimos, ad provident nulla
-                            voluptatum ut.
-                        </p>
+        <div class="space-x-3 p-3 -ml-3 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
+            <div class="flex flex-wrap items-center justify-center hover:scale-105 transition transform duration-200 ease-out">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-yellow-500 rounded-lg max-w-xs shadow-lg">
+                    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
+                        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+                    </svg>
+                    <div class="relative pt-10 px-10 flex items-center justify-center">
+                        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
+                        <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
                     </div>
-                    <div class="flex items-center space-x-2 mt-5">
-                        <!--Author's profile photo-->
-                        <img class="w-10 h-10 object-cover object-center rounded-full" src="assets/images/hacker.png" alt="random user" />
-                        <div>
-                            <!--Author name-->
-                            <p class="text-gray-900 font-semibold">Arsim Sejdiu</p>
-                            <p class="text-gray-500 font-semibold text-sm">
-                                &middot; Feb 24, 2021 &middot;
-                            </p>
+                    <div class="relative text-white px-6 pb-6 mt-6">
+                        <span class="block opacity-75 -mb-1">Outdoor</span>
+                        <div class="flex justify-between">
+                            <span class="block font-semibold text-xl">Oak Tree</span>
+                            <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
                         </div>
                     </div>
                 </div>
-                <!--End of first card-->
-            </a>
-            <a href="./single.php">
-                <!--First card-->
-                <div class="md:p-8 p-2 bg-white">
-                    <!--Banner image-->
-                    <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
-
-                    <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">#React/ReactNative</p>
-                    <!--Title-->
-                    <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
-                        the life of albert einstein
-                    </h1>
-                    <!--Description-->
-                    <div class="max-w-full">
-                        <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-                            vel soluta dolore id nesciunt eum nam ipsam, eveniet cupiditate sint
-                            veritatis harum odit. Iste dignissimos, ad provident nulla
-                            voluptatum ut.
-                        </p>
+            </div>
+            <div class="p-2 flex flex-wrap items-center justify-center hover:scale-105 transition transform duration-200 ease-out">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-green-500 rounded-lg max-w-xs shadow-lg">
+                    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
+                        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+                    </svg>
+                    <div class="relative pt-10 px-10 flex items-center justify-center">
+                        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
+                        <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
                     </div>
-                    <div class="flex items-center space-x-2 mt-5">
-                        <!--Author's profile photo-->
-                        <img class="w-10 h-10 object-cover object-center rounded-full" src="assets/images/hacker.png" alt="random user" />
-                        <div>
-                            <!--Author name-->
-                            <p class="text-gray-900 font-semibold">Arsim Sejdiu</p>
-                            <p class="text-gray-500 font-semibold text-sm">
-                                &middot; Feb 24, 2021 &middot;
-                            </p>
+                    <div class="relative text-white px-6 pb-6 mt-6">
+                        <span class="block opacity-75 -mb-1">Outdoor</span>
+                        <div class="flex justify-between">
+                            <span class="block font-semibold text-xl">Oak Tree</span>
+                            <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
                         </div>
                     </div>
                 </div>
-                <!--End of first card-->
-            </a>
-            <a href="./single.php">
-                <!--First card-->
-                <div class="md:p-8 p-2 bg-white">
-                    <!--Banner image-->
-                    <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
-
-                    <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">#Finance #Banking</p>
-                    <!--Title-->
-                    <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
-                        the life of albert einstein
-                    </h1>
-                    <!--Description-->
-                    <div class="max-w-full">
-                        <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-                            vel soluta dolore id nesciunt eum nam ipsam, eveniet cupiditate sint
-                            veritatis harum odit. Iste dignissimos, ad provident nulla
-                            voluptatum ut.
-                        </p>
+            </div>
+            <div class="p-2 flex flex-wrap items-center justify-center hover:scale-105 transition transform duration-200 ease-out">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+                    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
+                        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+                    </svg>
+                    <div class="relative pt-10 px-10 flex items-center justify-center">
+                        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
+                        <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
                     </div>
-                    <div class="flex items-center space-x-2 mt-5">
-                        <!--Author's profile photo-->
-                        <img class="w-10 h-10 object-cover object-center rounded-full" src="assets/images/hacker.png" alt="random user" />
-                        <div>
-                            <!--Author name-->
-                            <p class="text-gray-900 font-semibold">Arsim Sejdiu</p>
-                            <p class="text-gray-500 font-semibold text-sm">
-                                &middot; Feb 24, 2021 &middot;
-                            </p>
+                    <div class="relative text-white px-6 pb-6 mt-6">
+                        <span class="block opacity-75 -mb-1">Outdoor</span>
+                        <div class="flex justify-between">
+                            <span class="block font-semibold text-xl">Oak Tree</span>
+                            <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
                         </div>
                     </div>
                 </div>
-                <!--End of first card-->
-            </a>
-
-            <a href="./single.php">
-                <!--First card-->
-                <div class="md:p-8 p-2 bg-white">
-                    <!--Banner image-->
-                    <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
-
-                    <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">#Literature #Books</p>
-                    <!--Title-->
-                    <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
-                        the life of albert einstein
-                    </h1>
-                    <!--Description-->
-                    <div class="max-w-full">
-                        <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-                            vel soluta dolore id nesciunt eum nam ipsam, eveniet cupiditate sint
-                            veritatis harum odit. Iste dignissimos, ad provident nulla
-                            voluptatum ut.
-                        </p>
+            </div>
+            <div class="p-2 flex flex-wrap items-center justify-center hover:scale-105 transition transform duration-200 ease-out">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-yellow-500 rounded-lg max-w-xs shadow-lg">
+                    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
+                        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+                    </svg>
+                    <div class="relative pt-10 px-10 flex items-center justify-center">
+                        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
+                        <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
                     </div>
-                    <div class="flex items-center space-x-2 mt-5">
-                        <!--Author's profile photo-->
-                        <img class="w-10 h-10 object-cover object-center rounded-full" src="assets/images/hacker.png" alt="random user" />
-                        <div>
-                            <!--Author name-->
-                            <p class="text-gray-900 font-semibold">Arsim Sejdiu</p>
-                            <p class="text-gray-500 font-semibold text-sm">
-                                &middot; Feb 24, 2021 &middot;
-                            </p>
+                    <div class="relative text-white px-6 pb-6 mt-6">
+                        <span class="block opacity-75 -mb-1">Outdoor</span>
+                        <div class="flex justify-between">
+                            <span class="block font-semibold text-xl">Oak Tree</span>
+                            <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
                         </div>
                     </div>
                 </div>
-                <!--End of first card-->
-            </a>
-            <a href="./single.php">
-                <!--First card-->
-                <div class="md:p-8 p-2 bg-white">
-                    <!--Banner image-->
-                    <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
-
-                    <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">#Nature #ClimateChange</p>
-                    <!--Title-->
-                    <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
-                        the life of albert einstein
-                    </h1>
-                    <!--Description-->
-                    <div class="max-w-full">
-                        <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-                            vel soluta dolore id nesciunt eum nam ipsam, eveniet cupiditate sint
-                            veritatis harum odit. Iste dignissimos, ad provident nulla
-                            voluptatum ut.
-                        </p>
+            </div>
+            <div class="p-2 flex flex-wrap items-center justify-center hover:scale-105 transition transform duration-200 ease-out">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-green-500 rounded-lg max-w-xs shadow-lg">
+                    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
+                        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+                    </svg>
+                    <div class="relative pt-10 px-10 flex items-center justify-center">
+                        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
+                        <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
                     </div>
-                    <div class="flex items-center space-x-2 mt-5">
-                        <!--Author's profile photo-->
-                        <img class="w-10 h-10 object-cover object-center rounded-full" src="assets/images/hacker.png" alt="random user" />
-                        <div>
-                            <!--Author name-->
-                            <p class="text-gray-900 font-semibold">Arsim Sejdiu</p>
-                            <p class="text-gray-500 font-semibold text-sm">
-                                &middot; Feb 24, 2021 &middot;
-                            </p>
+                    <div class="relative text-white px-6 pb-6 mt-6">
+                        <span class="block opacity-75 -mb-1">Outdoor</span>
+                        <div class="flex justify-between">
+                            <span class="block font-semibold text-xl">Oak Tree</span>
+                            <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
                         </div>
                     </div>
                 </div>
-                <!--End of first card-->
-            </a>
-            <a href="./single.php">
-                <!--First card-->
-                <div class="md:p-8 p-2 bg-white">
-                    <!--Banner image-->
-                    <img class="rounded-lg w-full" src="https://images.unsplash.com/photo-1603349206295-dde20617cb6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
-
-                    <!--Tag-->
-                    <p class="text-indigo-500 font-semibold text-base mt-2">#Science #Education</p>
-                    <!--Title-->
-                    <h1 class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate">
-                        the life of albert einstein
-                    </h1>
-                    <!--Description-->
-                    <div class="max-w-full">
-                        <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-                            vel soluta dolore id nesciunt eum nam ipsam, eveniet cupiditate sint
-                            veritatis harum odit. Iste dignissimos, ad provident nulla
-                            voluptatum ut.
-                        </p>
+            </div>
+            <div class="p-2 flex flex-wrap items-center justify-center hover:scale-105 transition transform duration-200 ease-out">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+                    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
+                        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+                    </svg>
+                    <div class="relative pt-10 px-10 flex items-center justify-center">
+                        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
+                        <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
                     </div>
-                    <div class="flex items-center space-x-2 mt-5">
-                        <!--Author's profile photo-->
-                        <img class="w-10 h-10 object-cover object-center rounded-full" src="assets/images/hacker.png" alt="random user" />
-                        <div>
-                            <!--Author name-->
-                            <p class="text-gray-900 font-semibold">Arsim Sejdiu</p>
-                            <p class="text-gray-500 font-semibold text-sm">
-                                &middot; Feb 24, 2021 &middot;
-                            </p>
+                    <div class="relative text-white px-6 pb-6 mt-6">
+                        <span class="block opacity-75 -mb-1">Outdoor</span>
+                        <div class="flex justify-between">
+                            <span class="block font-semibold text-xl">Oak Tree</span>
+                            <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
                         </div>
                     </div>
                 </div>
-                <!--End of first card-->
-            </a>
+            </div>
+            <div class="flex flex-wrap items-center justify-center hover:scale-105 transition transform duration-200 ease-out">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-blue-500 rounded-lg max-w-xs shadow-lg">
+                    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
+                        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+                    </svg>
+                    <div class="relative pt-10 px-10 flex items-center justify-center">
+                        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
+                        <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
+                    </div>
+                    <div class="relative text-white px-6 pb-6 mt-6">
+                        <span class="block opacity-75 -mb-1">Outdoor</span>
+                        <div class="flex justify-between">
+                            <span class="block font-semibold text-xl">Oak Tree</span>
+                            <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-center hover:scale-105 transition transform duration-200 ease-out">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-indigo-500 rounded-lg max-w-xs shadow-lg">
+                    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
+                        <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
+                        <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
+                    </svg>
+                    <div class="relative pt-10 px-10 flex items-center justify-center">
+                        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;"></div>
+                        <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
+                    </div>
+                    <div class="relative text-white px-6 pb-6 mt-6">
+                        <span class="block opacity-75 -mb-1">Outdoor</span>
+                        <div class="flex justify-between">
+                            <span class="block font-semibold text-xl">Oak Tree</span>
+                            <span class="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">$68.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </section>
