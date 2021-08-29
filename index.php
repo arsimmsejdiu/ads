@@ -46,8 +46,8 @@ include('./components/head.php')
         include('./sections/LargeCard.php')
         ?>
 
-<div class="min-w-screen bg-gray-50 flex items-center justify-center py-1">
-            <div class="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800 font-light">
+<div class="min-w-screen flex items-center justify-center py-1">
+            <div class="w-full bg-white border-t border-b mb-10 border-gray-200 px-5 py-16 md:py-24 text-gray-800 font-light">
                 <div class="w-full max-w-6xl mx-auto pb-5">
                     <div class="-mx-3 md:flex items-center">
                         <div class="px-3 md:w-2/3 mb-10 md:mb-0">
@@ -78,7 +78,7 @@ include('./components/head.php')
         <!-- BUY ME A BEER AND HELP SUPPORT OPEN-SOURCE RESOURCES -->
         <div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
             <div>
-                <a title="Buy me a beer" href="https://www.buymeacoffee.com/scottwindon" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
+                <a title="Buy me a beer" href="https://www.buymeacoffee.com/arsimsejdiu" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
                     <img class="object-cover object-center w-full h-full rounded-full" src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg" />
                 </a>
             </div>
