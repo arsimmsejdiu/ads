@@ -2,7 +2,7 @@
 session_start();
 include('../components/head.php');
 include('../components/headDash.php');
-include('../database/db_connection.php');
+include('../db_connection.php');
 
 if (isset($_POST['submit'])) {
 	//getting the post values
