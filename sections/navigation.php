@@ -1,6 +1,16 @@
 <?php
 session_start();
-include('./components/head.php')
+include('./components/head.php');
+require './db_connection.php';
+if (isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])) {
+
+    $user_email = $_SESSION['user_email'];
+    $get_user_data = mysqli_query($db_connection, "SELECT * FROM `users` WHERE user_email = '$user_email'");
+    $userData =  mysqli_fetch_assoc($get_user_data);
+} else {
+    header('Location: signin.php');
+    exit;
+}
 ?>
 
 <header class="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
@@ -20,17 +30,9 @@ include('./components/head.php')
 
     <div class="flex space-x-3 items-center justify-end text-gray-500 hover:text-gray-400">
         <div class='flex space-x-7 items-center justify-end text-gray-500 hover:text-gray-400 cursor-pointer md:w-120 '>
-        <?php
+            <?php
             if (isset($_SESSION['user_email'])) {
                 echo "<p className='hidden sm:hidden md:inline cursor-pointer font-bold'>Favorites <i class='ri-heart-line'></i></p>";
-                // echo "<article class='block pulse2'>";
-                //         echo "<div class='block-inner'>";
-                //             echo "<div class='block-component'>";
-                //                 echo "<div class='pulse2-badge'><i class='ri-heart-line'></i></div>";
-                //             echo "</div>";
-                //         echo "</div>";
-
-                //     echo "</article>";
                 echo "<a href='dashboard/MySpace.php' class='flex items-center justify-center px-4 py-2 bg-blue-300 rounded-lg shadow-xs cursor-pointer hover:bg-blue-500 hover:text-gray-100'>";
                 echo "<div>";
                 echo "<button class='text-sm font-medium ml-2 '>";
@@ -44,7 +46,7 @@ include('./components/head.php')
             if (isset($_SESSION['user_email'])) {
 
                 echo "<div>";
-                echo "<h4 class='flex items-center justify-center text-sm font-bold text-indigo-600'>Hi Arsim Sejdiu,";
+                echo "<h4 class='flex items-center justify-center text-sm font-bold text-indigo-600'>Hi " . $userData['user_name'] . ",";
                 echo "<a href='logout.php'>";
                 echo "<button class='text-sm font-semibold text-red-300 hover:text-red-500 flex items-center text-xs font-medium ml-2 '>";
                 echo "Signout";
