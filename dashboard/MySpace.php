@@ -1,5 +1,6 @@
 <?php
-include('../components/headDash.php')
+include('../components/headDash.php');
+include('../db_connection.php');
 ?>
 <?php
     session_start();

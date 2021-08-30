@@ -1,5 +1,14 @@
 <?php
-include('../components/head.php')
+include('../components/head.php');
+if (isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])) {
+
+    $user_email = $_SESSION['user_email'];
+    $get_user_data = mysqli_query($db_connection, "SELECT * FROM `users` WHERE user_email = '$user_email'");
+    $userData =  mysqli_fetch_assoc($get_user_data);
+} else {
+    header('Location: signin.php');
+    exit;
+}
 ?>
 
 <header class="fixed-topbar">
@@ -19,7 +28,7 @@ include('../components/head.php')
         <img class="author-img" src="../assets/images/hacker.png" />
         <span class="author-stack">
             <span class="author-title">
-                Arsim Sejdiu
+                <?php echo $userData['user_name']; ?>
             </span>
             <!-- <span class="author-subtitle">
             @frontendjoe

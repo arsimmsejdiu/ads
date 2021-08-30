@@ -5,7 +5,7 @@
   <title>My Dashboard</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="../assets/images/logo.png" type="image/png" />
+  <link rel="shortcut icon" href="../images/logo.png" type="image/png" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />

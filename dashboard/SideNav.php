@@ -4,7 +4,7 @@ include('../components/head.php')
 
 <aside class="fixed-navbar">
     <header class="fixed-navbar-header">
-        <span class="fixed-navbar-logo"><a href="../index.php"><img src="../assets/images/logo.png" /></a></span>
+        <span class="fixed-navbar-logo"><a href="../index.php"><img src="../images/logo.png" /></a></span>
     </header>
     <nav class="fixed-navbar-nav">
         <button class="fixed-navbar-button">
