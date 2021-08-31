@@ -14,13 +14,15 @@ if (isset($_POST['user_email']) && isset($_POST['user_password'])) {
 
             $row = mysqli_fetch_assoc($query);
             $user_db_pass = $row['user_password'];
+            $user_id = $row['user_id'];
+            $user_name = $row['user_name'];
 
             // VERIFY PASSWORD
             $check_password = password_verify($_POST['user_password'], $user_db_pass);
 
             if ($check_password === TRUE) {
 
-                session_regenerate_id(true);
+                //session_regenerate_id(true);
 
                 $_SESSION['user_email'] = $user_email;
                 $_SESSION['user_name'] = $user_name;

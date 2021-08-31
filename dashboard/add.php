@@ -21,7 +21,7 @@ session_start();
             $sql_query = "INSERT INTO products(title, description, category, price, creation_date, city, image, user_id) VALUES('$title', '$description', '$category', '$price', '$creation_date', '$city', '../images/hacker.png', '$user_id')";
             $var_temp = $bd->prepare($sql_query);
             $var_temp->execute();
-            header('Location:MySpace.php');
+            header('Location:create.php');
     }
     else
     {
@@ -42,7 +42,7 @@ session_start();
                 $sql_query = "INSERT INTO products(title, description, category, price, creation_date, city, image, user_id) VALUES('$title', '$description', '$category', '$price', '$creation_date', '$city', '$file_name_for_db', '$user_id')";
                 $var_temp = $bd->prepare($sql_query);
                 $var_temp->execute();
-                header('Location:MySpace.php');
+                header('Location:create.php');
             }
             else
             {

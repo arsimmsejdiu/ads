@@ -2,11 +2,6 @@
 session_start();
 include('./components/head.php');
 require './db_connection.php';
-if (isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])) {
-    $user_email = $_SESSION['user_email'];
-    $get_user_data = mysqli_query($db_connection, "SELECT * FROM `users` WHERE user_email = '$user_email'");
-    $userData =  mysqli_fetch_assoc($get_user_data);
-}
 ?>
 
 <header class="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
@@ -42,7 +37,7 @@ if (isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])) {
             if (isset($_SESSION['user_email'])) {
 
                 echo "<div>";
-                echo "<h4 class='flex items-center justify-center text-sm font-bold text-indigo-600'>Hi " . $userData['user_name'] . ",";
+                echo "<h4 class='flex items-center justify-center text-sm font-bold text-indigo-600'>Hi " . $_SESSION['user_name'] . ",";
                 echo "<a href='logout.php'>";
                 echo "<button class='text-sm font-semibold text-red-300 hover:text-red-500 flex items-center text-xs font-medium ml-2 '>";
                 echo "Signout";
