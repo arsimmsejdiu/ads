@@ -3,7 +3,7 @@ include('./components/head.php')
 ?>
 
 <div class="relative w-[100%] h-[300px] sm:h-[400px] lg:h[500px] xl:h-[600px] 2xl:h-[700px]">
-    <img src="assets/images/hero.png" alt="banner" />
+    <img src="images/hero.png" alt="banner" />
     <div class="absolute top-1/2 w-full text-center">
         <p class="text-sm sm:text-lg font-bold text-gray-500">
             Not sure where to go? Perfect.

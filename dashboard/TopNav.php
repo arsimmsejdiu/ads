@@ -26,7 +26,7 @@ if (isset($_SESSION['user_email'])) {
         Sidebar
     </aside>
     <span class="author-block">
-        <img class="author-img" src="../assets/images/hacker.png" />
+        <img class="author-img" src="../images/hacker.png" />
         <span class="author-stack">
             <span class="author-title">
                 <?php echo $userData['user_name']; ?>

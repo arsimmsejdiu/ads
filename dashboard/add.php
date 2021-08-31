@@ -2,13 +2,13 @@
 session_start();
     require_once('./db.php');
 
-    $title = $_POST['title'];
-    $description = $_POST['description'];
-    $category = $_POST['category'];
-    $price = $_POST['price'];
-    $creation_date = $_POST['creation_date'];
-    $city = $_POST['city'];
-    $user_id = $_POST['user_id'];
+    $title = addslashes(htmlspecialchars($_POST['title']));
+    $description = addslashes(htmlspecialchars($_POST['description']));
+    $category = addslashes(htmlspecialchars($_POST['category']));
+    $price = addslashes(htmlspecialchars($_POST['price']));
+    $creation_date = addslashes(htmlspecialchars($_POST['creation_date']));
+    $city = addslashes(htmlspecialchars($_POST['city']));
+    $user_id = addslashes(htmlspecialchars($_POST['user_id']));
     
     $file_name = $_FILES['image']['name'];
     $file_infos = pathinfo($file_name);
@@ -49,5 +49,4 @@ session_start();
                 header('Location:error.php?upload');
             }
         }
-    }    
-?>
+    }

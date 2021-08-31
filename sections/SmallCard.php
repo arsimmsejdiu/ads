@@ -12,7 +12,7 @@ include('./components/head.php')
                 hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
                     <!-- left -->
                     <div data-tilt class="relative h-16 w-16">
-                        <img src="assets/images/bigben.png" layout="fill" class="rounded-lg" />
+                        <img src="images/bigben.png" layout="fill" class="rounded-lg" />
                     </div>
                     <!-- Right -->
                     <div>
@@ -26,7 +26,7 @@ include('./components/head.php')
                 hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
                 <!-- left -->
                 <div data-tilt class="relative h-16 w-16">
-                    <img src="assets/images/manch.png" layout="fill" class="rounded-lg" />
+                    <img src="images/manch.png" layout="fill" class="rounded-lg" />
                 </div>
                 <!-- Right -->
                 <div>
@@ -39,7 +39,7 @@ include('./components/head.php')
                 hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
                 <!-- left -->
                 <div data-tilt class="relative h-16 w-16">
-                    <img src="assets/images/liverpool.png" layout="fill" class="rounded-lg" />
+                    <img src="images/liverpool.png" layout="fill" class="rounded-lg" />
                 </div>
                 <!-- Right -->
                 <div>
@@ -52,7 +52,7 @@ include('./components/head.php')
                 hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
                 <!-- left -->
                 <div data-tilt class="relative h-16 w-16">
-                    <img src="assets/images/york.png" layout="fill" class="rounded-lg" />
+                    <img src="images/york.png" layout="fill" class="rounded-lg" />
                 </div>
                 <!-- Right -->
                 <div>
@@ -66,7 +66,7 @@ include('./components/head.php')
                 hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
                 <!-- left -->
                 <div data-tilt class="relative h-16 w-16">
-                    <img src="assets/images/Cardiff.png" layout="fill" class="rounded-lg" />
+                    <img src="images/Cardiff.png" layout="fill" class="rounded-lg" />
                 </div>
                 <!-- Right -->
                 <div>
@@ -79,7 +79,7 @@ include('./components/head.php')
                 hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
                 <!-- left -->
                 <div data-tilt class="relative h-16 w-16">
-                    <img src="assets/images/Birkenhead.png" layout="fill" class="rounded-lg" />
+                    <img src="images/Birkenhead.png" layout="fill" class="rounded-lg" />
                 </div>
                 <!-- Right -->
                 <div>
@@ -92,7 +92,7 @@ include('./components/head.php')
                 hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
                 <!-- left -->
                 <div data-tilt class="relative h-16 w-16">
-                    <img src="assets/images/Newquay.png" layout="fill" class="rounded-lg" />
+                    <img src="images/Newquay.png" layout="fill" class="rounded-lg" />
                 </div>
                 <!-- Right -->
                 <div>
@@ -105,7 +105,7 @@ include('./components/head.php')
                 hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
                 <!-- left -->
                 <div data-tilt class="relative h-16 w-16">
-                    <img src="assets/images/hove.png" layout="fill" class="rounded-lg" />
+                    <img src="images/hove.png" layout="fill" class="rounded-lg" />
                 </div>
                 <!-- Right -->
                 <div>
