@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (!isset($_SESSION['user_email']))
+if (!isset($_SESSION['user_email']) && $_SESSION['user_id'])
     header('Location: ../index.php');
 include('../components/head.php');
 include('../components/headDash.php');
@@ -33,6 +33,10 @@ include('./db.php');
                     <h1 class="text-gray-600 font-bold md:text-2xl text-xl">Crate Your Announcement</h1>
                 </div>
             </div>
+            <?php
+                echo "<script>console.log(' " . $_SESSION['user_email'] . "' );</script>";
+                echo "<script>console.log(' " . $_SESSION['user_id'] . "' );</script>";
+            ?>
             <form enctype="multipart/form-data" method="POST" action="add.php">
                 <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id'] ?>" required />
                 <input type="hidden" name="creation_date" value="<?php echo date('d/m/Y'); ?>" required />

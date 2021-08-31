@@ -1,11 +1,12 @@
 <?php
 include('../components/headDash.php');
 include('../db_connection.php');
+require_once('./db.php');
 ?>
 <?php
-    session_start();
-    if(!isset($_SESSION['user_email']))
-    header('Location: ../index.php');
+session_start();
+if (!isset($_SESSION['user_email']))
+  header('Location: ../index.php');
 ?>
 
 <body>

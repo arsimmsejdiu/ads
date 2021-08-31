@@ -1,5 +1,7 @@
 <?php
 include('../components/head.php');
+include('../db_connection.php');
+include('./db.php');
 if (isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])) {
 
     $user_email = $_SESSION['user_email'];

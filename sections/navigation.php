@@ -3,7 +3,6 @@ session_start();
 include('./components/head.php');
 require './db_connection.php';
 if (isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])) {
-
     $user_email = $_SESSION['user_email'];
     $get_user_data = mysqli_query($db_connection, "SELECT * FROM `users` WHERE user_email = '$user_email'");
     $userData =  mysqli_fetch_assoc($get_user_data);

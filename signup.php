@@ -18,7 +18,7 @@ if (isset($_SESSION['user_email'])) {
                 <div class="md:space-y-2 mb-3">
                     <div class="flex items-center justify-center py-6">
                         <div class="w-32 h-32 mr-4 flex-none rounded-full border overflow-hidden">
-                            <img class="w-32 h-32 mr-4 object-cover" src="assets/images/man.png" alt="Avatar Upload">
+                            <img class="w-32 h-32 mr-4 object-cover" src="images/man.png" alt="Avatar Upload">
                         </div>
                         <label class="cursor-pointer ">
                             <span class="focus:outline-none text-white text-sm py-2 px-4 rounded-full bg-green-400 hover:bg-green-500 hover:shadow-lg">Image Profile</span>

@@ -23,6 +23,8 @@ if (isset($_POST['user_email']) && isset($_POST['user_password'])) {
                 session_regenerate_id(true);
 
                 $_SESSION['user_email'] = $user_email;
+                $_SESSION['user_name'] = $user_name;
+                $_SESSION['user_id'] = $user_id;
                 header('Location: index.php');
                 exit;
             } else {
@@ -39,3 +41,11 @@ if (isset($_POST['user_email']) && isset($_POST['user_password'])) {
         $error_message = "Please fill in all the required fields.";
     }
 }
+
+// if ($row == 1) {
+//     if ($data['user_password'] === $password) {
+//         $_SESSION['user_name'] = $data['user_name'];
+//         $_SESSION['user_id'] = $data['user_id'];
+//         header('Location:index.php');
+//     } else header('Location:error.php?login_error');
+// } else header('Location:error.php?login_doesnt_exists');
