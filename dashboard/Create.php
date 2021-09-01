@@ -7,27 +7,6 @@ include('../components/headDash.php');
 include('../db_connection.php');
 ?>
 
-<?php
-if (isset($_POST['submit'])) {
-    //getting the post values
-    $title = addslashes(htmlspecialchars($_POST['title']));
-    $description = addslashes(htmlspecialchars($_POST['description']));
-    $category = addslashes(htmlspecialchars($_POST['category']));
-    $price = addslashes(htmlspecialchars($_POST['price']));
-    $creation_date = addslashes(htmlspecialchars($_POST['creation_date']));
-    $city = addslashes(htmlspecialchars($_POST['city']));
-    $user_id = addslashes(htmlspecialchars($_POST['user_id']));
-
-    // Query for data insertion
-    $query = mysqli_query($db_connection, "INSERT INTO products(title, description, category, price, creation_date, city, user_id) VALUES('$title', '$description', '$category', '$price', '$creation_date', '$city', '$user_id')");
-    if ($query) {
-        echo "<script type='text/javascript'> document.location ='home.php'; </script>";
-    } else {
-        echo "<script>alert('Something Went Wrong. Please try again');</script>";
-    }
-}
-?>
-
 <body>
     <?php
     include('./TopNav.php')
@@ -54,7 +33,7 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
 
-            <form enctype="multipart/form-data" method="POST">
+            <form enctype="multipart/form-data" method="POST" action="add.php">
                 <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id'] ?>" required />
                 <input type="hidden" name="creation_date" value="<?php echo date('d/m/Y'); ?>" required />
 

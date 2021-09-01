@@ -23,7 +23,7 @@ require './db_connection.php';
         <div class='flex space-x-7 items-center justify-end text-gray-500 hover:text-gray-400 cursor-pointer md:w-120 '>
             <?php
             if (isset($_SESSION['user_email'])) {
-                echo "<p className='hidden sm:hidden md:inline cursor-pointer font-bold'>Favorites <i class='ri-heart-line'></i></p>";
+                echo "<p className='hidden sm:hidden md:inline cursor-pointer'>Favorites <i class='text-red-400 ri-heart-line'></i></p>";
                 echo "<a href='dashboard/MySpace.php' class='flex items-center justify-center px-4 py-2 bg-blue-300 rounded-lg shadow-xs cursor-pointer hover:bg-blue-500 hover:text-gray-100'>";
                 echo "<div>";
                 echo "<button class='text-sm font-medium ml-2 '>";
